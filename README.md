@@ -17,7 +17,7 @@ https://github.com/codergalib20/argon-online-shop-fullstack-project-server-side
 ## Client side code link
 
 ```
-https://github.com/codergalib20/argon-online-shop-fullstack-project
+https://github.com/powlome/e-commerce-clients
 
 ```
 
