@@ -5,13 +5,13 @@
 ## Live link
 
 ```
-(https://safrian.netlify.app/home)
+https://safrian.netlify.app/home
 ```
 
 ## Server Side code link
 
 ```
-https://github.com/codergalib20/argon-online-shop-fullstack-project-server-side
+https://github.com/powlome/e-commerce-server
 ```
 
 ## Client side code link
