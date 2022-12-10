@@ -5,7 +5,7 @@
 ## Live link
 
 ```
-https://argon-online-shop.web.app/
+(https://safrian.netlify.app/home)
 ```
 
 ## Server Side code link
