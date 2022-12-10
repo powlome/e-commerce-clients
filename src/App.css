@@ -1,0 +1,161 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#ReactBackgroundSlider {
+  max-height: 500px !important;
+  width: 100%;
+}
+#ReactBackgroundSlider > figure {
+  max-height: 500px !important;
+  position: absolute;
+  top: 64px !important;
+  left: 0px;
+  overflow: hidden;
+  color: transparent;
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: -1000;
+  margin: 0;
+  backface-visibility: hidden;
+  animation: imageAnimation 12s linear infinite -0.5s;
+}
+/* Home Products Components Products Slider */
+.slick-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slick-slide .slick-active .slick-current {
+  width: 1180px;
+}
+.slick-list {
+  position: relative !important;
+}
+.slick-slider.slick-initialized {
+  position: relative;
+}
+.slick-arrow.slick-prev {
+  position: absolute !important;
+  left: 50px !important;
+  z-index: 9999;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #f5841a;
+  outline: none;
+  border: 2px solid #f5841a;
+  color: #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.slick-arrow.slick-next {
+  position: absolute !important;
+  right: 50px !important;
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 9999;
+  background-color: #f5841a;
+  outline: none;
+  border: 2px solid #f5841a;
+  color: #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: all 0.4s linear;
+  z-index: 1;
+}
+
+.slick-arrow.slick-prev::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
+  background-color: #222;
+  transition: all 0.4s linear;
+  z-index: -1;
+}
+.slick-arrow.slick-prev:hover::after {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.slick-arrow.slick-next::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
+  background-color: #222;
+  transition: all 0.4s linear;
+  z-index: -1;
+}
+.slick-arrow.slick-next:hover::after {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.slick-dots {
+  display: none !important;
+}
+
+@media screen and (max-width: 992px) {
+  .slick-arrow.slick-prev {
+    display: none !important;
+  }
+  .slick-arrow.slick-next {
+    display: none !important;
+  }
+}
+
+.selectStyle {
+  width: "100% !important";
+  margin-bottom: "1rem !important";
+  border: "1px solid #fff !important";
+  border-radius: "5px !important";
+  padding: "0.5rem !important";
+  font-size: "1rem !important";
+  color: "#fff !important";
+  background-color: "#f5841a !important";
+}
+section:hover {
+  background-color: "#f584 !important";
+}
+
+.cardImageStyle {
+  width: "100% !important";
+  height: "100% !important";
+  border-radius: "5px !important";
+  transform: scale(1);
+  transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.cardImageStyle:hover {
+  transform: scale(1.1) rotate(5deg);
+}
