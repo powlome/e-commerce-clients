@@ -8,7 +8,7 @@ const ShowProducts = () => {
   const [selectProduct, setSelectProduct] = useState("man");
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("https://blooming-plains-44019.herokuapp.com/products")
+    fetch("https://safrian.onrender.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

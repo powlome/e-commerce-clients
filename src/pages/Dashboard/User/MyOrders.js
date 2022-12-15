@@ -6,7 +6,7 @@ import MyOrder from "./MyOrder";
 const AllCart = () => {
   const [carts, setCarts] = useState([]);
   useEffect(()=>{
-    fetch("https://blooming-plains-44019.herokuapp.com/orderCollections")
+    fetch("https://safrian.onrender.com/orderCollections")
     .then(res=>res.json())
     .then(data=>setCarts(data))
   },[])

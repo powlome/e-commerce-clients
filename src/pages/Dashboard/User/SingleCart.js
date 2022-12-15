@@ -25,7 +25,7 @@ export default function SingleCart({ cartItem,carts, setCarts }) {
       dangerMode: true,
     }).then((willDelete) => {
       if (willDelete) {
-        fetch(`https://blooming-plains-44019.herokuapp.com/cartDel/${id}`, {
+        fetch(`https://safrian.onrender.com/cartDel/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

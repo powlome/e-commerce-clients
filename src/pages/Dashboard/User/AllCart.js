@@ -6,7 +6,7 @@ import SingleCart from "./SingleCart";
 const AllCart = () => {
   const [carts, setCarts] = useState([]);
   useEffect(()=>{
-    fetch("https://blooming-plains-44019.herokuapp.com/cartCollection")
+    fetch("https://safrian.onrender.com/cartCollection")
     .then(res=>res.json())
     .then(data=>setCarts(data))
   },[])
